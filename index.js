@@ -3,8 +3,6 @@
 
 //Using Arrays - Create a new array - cards - that contians firstCard and secondCard
 //let cards = [firstCard, secondCard]
-
-
 //let sum = firstCard + secondCard
 
 let player = {
@@ -91,31 +89,7 @@ function newCard() {
 
 
 
-// let age = 29
-// if (age < 21){
-//     console.log("You are not allowed to enter the club!")
-// } else {
-//     console.log("Welcome!")
-// }
 
-
-// let ageN = 99
-// if (ageN < 100){
-//     console.log("You are not eligible")
-// } else if (ageN === 100) {
-//     console.log("Here is your birthday card from the King")
-// } else {
-//     console.log("you already got one, Not eligible")
-// }
-
-
-// console.log (4 === 3) // false
-// console.log (5 > 2) // true
-// console.log (12 > 12) // false
-// console.log (3 < 0) // false
-// console.log (3 >= 3) // true
-// console.log (11 <= 11) //true
-// console.log (3 <= 2) //false
 
 
 
