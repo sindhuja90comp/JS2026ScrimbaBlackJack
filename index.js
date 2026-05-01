@@ -1,9 +1,3 @@
-// let firstCard = getRandomCard()
-// let secondCard = getRandomCard()
-
-//Using Arrays - Create a new array - cards - that contians firstCard and secondCard
-//let cards = [firstCard, secondCard]
-//let sum = firstCard + secondCard
 
 let player = {
     name : "Sindhuja",
@@ -45,26 +39,22 @@ function startGame() {
 }
 
 function renderGame() {
-    //cardsEl.textContent = "Cards:" + firstCard + " " + secondCard
     cardsEl.textContent = "Cards:" + cards
     // for(let i = 0; i < cards.length; i++){
     //     cardsEl.textContent += cards[i] + " " + card
-    // }
+    // }  //This loop causes problem of displaying only last looped element
 
     sumEl.textContent = "Sum:" + sum
     playerEl.textContent = player.name + ": $" + player.chips
     if (sum < 21) {
         message = "Do you want to draw a new card?"
-        //console.log("Do you want to draw a new card?")
         isAlive = true
     } else if (sum === 21) {
         message = "Wohoo! You've got the black jack!"
-        //console.log("Wohoo! You've got the black jack!")
         hasBlackJack = true
         isAlive = true
     } else {
         message = "You are out of the game!"
-        //console.log("you are out of the game!")
         isAlive = false
     }
     messageEl.innerText = message
